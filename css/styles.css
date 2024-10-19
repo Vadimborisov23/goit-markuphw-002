@@ -188,15 +188,16 @@ a {
 .partfolio-item {
     flex: 1;
     margin: 10px;
+    background-color: #FFFFFF;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .partfolio-item:hover {
-    background-color: #FFFFFF;
+    background-color: #f0f0f0;
 }
 
 .partfolio-image {
