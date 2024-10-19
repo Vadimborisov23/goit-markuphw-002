@@ -1,4 +1,3 @@
-/* Основные стили для body */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -26,11 +25,8 @@ a {
 }
 
 .header-logo {
+    padding: 24px 0;
     margin-right: 76px;
-}
-
-.header-logo {
-    margin-bottom: 16px;
 }
 
 .header-logo .logo-part {
@@ -74,7 +70,7 @@ a {
 }
 
 /* Блок с героями (главный блок) */
-.hero {
+.hero{
     background: #2e2f42;
 }
 
@@ -87,24 +83,23 @@ a {
     color: #fff;
 }
 
-
 .hero-btn {
-font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
 }
 
 /* Особенности */
@@ -119,7 +114,8 @@ font-weight: 500;
     color: #2e2f42;
 }
 
-.features-liste {
+.features-list {
+    /* Исправлено */
     display: flex;
     flex-direction: column;
 }
@@ -144,57 +140,65 @@ font-weight: 500;
     color: #434455;
 }
 
-.team{
-    width: 1440px;
-        height: 732px;
-        background: #f4f4fd;
+/* Команда */
+.team {
+    background: #f4f4fd;
 }
 
-.team-title{
+.team-title {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
- .team-memder-image{
-width: 264px;
-    height: 260px;
- }
 
- .team-memder-name{
+.team-member-image {
+    /* Исправлено */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.team-member-name {
+    /* Исправлено */
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
- }
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
- .team-memder-role{
+.team-member-role {
+    /* Исправлено */
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
- }
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
 
 /* Портфолио */
-.partfolio{
+/* Портфолио */
+.partfolio {
     width: 1128px;
-        height: 1000px;
+    height: 1000px;
 }
 
-.partfolio-title{
+.partfolio-title {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color:#2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
+
 .partfolio-liste {
     display: flex;
     flex-wrap: wrap;
@@ -215,12 +219,12 @@ width: 264px;
     height: auto;
 }
 
-.punctuality-item-title{
+.punctuality-item-title {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .partfolio-item-description {
@@ -233,12 +237,13 @@ width: 264px;
 
 /* Шапка */
 
-.footer-eader{
-    background:#2e2f42;
+.footer-eader {
+    background: #2e2f42;
 }
+
 .eader {
     font-family: "Raleway", sans-serif;
-font-weight: 700;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -246,21 +251,21 @@ font-weight: 700;
     color: #4d5ae5;
 }
 
-.eader-logo-color{
+.eader-logo-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.15;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .eader-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-        font-size: 17px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
