@@ -184,42 +184,33 @@ a {
 }
 
 /* Портфолио */
-/* Портфолио */
-.partfolio {
+.portfolio {
     width: 1128px;
     height: 1000px;
 }
 
-.partfolio-title {
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.partfolio-liste {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.partfolio-item {
+.portfolio-item {
     flex: 1;
     margin: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    background-color: #FFFFFF;
 }
 
-.partfolio-image {
-    width: 100%;
-    height: auto;
-}
-
-.punctuality-item-title {
+.portfolio-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -227,7 +218,7 @@ a {
     color: #2e2f42;
 }
 
-.partfolio-item-description {
+.portfolio-item-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
