@@ -29,7 +29,7 @@ a {
     margin-right: 76px;
 }
 
-.footer-logo {
+.header-logo {
     margin-bottom: 16px;
 }
 
@@ -162,16 +162,32 @@ a {
 }
 
 /* Шапка */
-.eader {
+
+.footer-eader{
     background: #2e2f42;
 }
-
-.eader-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+.eader {
+font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.eader-logo-color{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+
+.eader-logo {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
