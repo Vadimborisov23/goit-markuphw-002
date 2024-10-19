@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-/* Логотипы в шапке и подвале */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -37,7 +36,6 @@ a {
     color: #f4f4fd;
 }
 
-/* Навигация */
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -51,7 +49,6 @@ a {
     color: #404bbf;
 }
 
-/* Контакты */
 .contacts {
     font-style: normal;
 }
@@ -69,8 +66,7 @@ a {
     color: #404bbf;
 }
 
-/* Блок с героями (главный блок) */
-.hero{
+.hero {
     background: #2e2f42;
 }
 
@@ -100,9 +96,13 @@ a {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    transition: background-color 0.3s ease;
 }
 
-/* Особенности */
+.hero-btn:hover {
+    background-color: #3c48c0;
+}
+
 .features {
     margin: 40px 0;
 }
@@ -115,7 +115,6 @@ a {
 }
 
 .features-list {
-    /* Исправлено */
     display: flex;
     flex-direction: column;
 }
@@ -140,7 +139,6 @@ a {
     color: #434455;
 }
 
-/* Команда */
 .team {
     background: #f4f4fd;
 }
@@ -155,7 +153,6 @@ a {
 }
 
 .team-member-image {
-    /* Исправлено */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +161,6 @@ a {
 }
 
 .team-member-name {
-    /* Исправлено */
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -174,7 +170,6 @@ a {
 }
 
 .team-member-role {
-    /* Исправлено */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -183,34 +178,47 @@ a {
     color: #434455;
 }
 
-/* Портфолио */
-.portfolio {
+.partfolio {
     width: 1128px;
     height: 1000px;
 }
 
-.portfolio-title {
+.partfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
-.portfolio-list {
+.partfolio-liste {
     display: flex;
     flex-wrap: wrap;
 }
 
-.portfolio-item {
+.partfolio-item {
     flex: 1;
     margin: 10px;
-    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.portfolio-item-title {
+.partfolio-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.partfolio-image {
+    width: 100%;
+    height: auto;
+}
+
+.punctuality-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -218,15 +226,13 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-item-description {
+.partfolio-item-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/* Шапка */
 
 .footer-eader {
     background: #2e2f42;
