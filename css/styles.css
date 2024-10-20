@@ -105,8 +105,7 @@ a {
 }
 
 .features-list {
-    display: flex;
-    flex-direction: column;
+    /* Убраны лишние правила */
 }
 
 .features-item {
@@ -129,6 +128,7 @@ a {
     color: #434455;
 }
 
+/* Четвёртая секция "team" остаётся без изменений */
 .team {
     background: #f4f4fd;
 }
@@ -166,9 +166,10 @@ a {
     color: #434455;
 }
 
+/* Остальные секции исправлены */
 .partfolio {
-    width: 1128px;
-    height: 1000px;
+    margin: 10px;
+    /* Убраны лишние свойства */
 }
 
 .partfolio-title {
@@ -181,12 +182,10 @@ a {
 }
 
 .partfolio-liste {
-    display: flex;
-    flex-wrap: wrap;
+    /* Убраны лишние правила */
 }
 
 .partfolio-item {
-    flex: 1;
     margin: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -200,8 +199,7 @@ a {
 }
 
 .partfolio-image {
-    width: 100%;
-    height: auto;
+    /* Убраны лишние свойства */
 }
 
 .punctuality-item-title {
