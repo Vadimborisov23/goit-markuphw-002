@@ -124,6 +124,7 @@ a {
     color: #434455;
 }
 
+/* Четвертая секция не изменена */
 .team {
     background: #f4f4fd;
 }
@@ -135,6 +136,12 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-member-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .team-member-name {
@@ -155,6 +162,7 @@ a {
     color: #434455;
 }
 
+/* Следующие секции изменены */
 .partfolio {
     margin: 10px;
 }
