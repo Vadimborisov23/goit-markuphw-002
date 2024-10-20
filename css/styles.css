@@ -24,6 +24,7 @@ a {
 }
 
 .header-logo {
+    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -84,13 +85,22 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: #404bbf;
+.hero-btn:hover {
+    background-color: #3c48c0;
 }
 
 .features {
@@ -102,6 +112,11 @@ a {
     font-size: 32px;
     line-height: 1.2;
     color: #2e2f42;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
 }
 
 .features-item {
@@ -124,7 +139,6 @@ a {
     color: #434455;
 }
 
-/* Четвертая секция не изменена */
 .team {
     background: #f4f4fd;
 }
@@ -140,8 +154,10 @@ a {
 
 .team-member-image {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 32px;
 }
 
 .team-member-name {
@@ -162,9 +178,9 @@ a {
     color: #434455;
 }
 
-/* Следующие секции изменены */
 .partfolio {
-    margin: 10px;
+    width: 1128px;
+    height: 1000px;
 }
 
 .partfolio-title {
@@ -176,18 +192,38 @@ a {
     color: #2e2f42;
 }
 
+.partfolio-liste {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .partfolio-item {
+    flex: 1;
     margin: 10px;
-    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.partfolio-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.partfolio-image {
+    width: 100%;
+    height: auto;
+}
+
+.punctuality-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.partfolio-item:hover {
-    background-color: #f0f0f0;
 }
 
 .partfolio-item-description {
