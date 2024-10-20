@@ -133,6 +133,10 @@ a {
     background: #f4f4fd;
 }
 
+.team-member{
+
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -140,6 +144,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-member{
+    background-color: #FFFFFF;
 }
 
 .team-member-image {
@@ -244,9 +252,9 @@ a {
 
 .eader-logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
