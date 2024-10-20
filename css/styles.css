@@ -104,10 +104,6 @@ a {
     color: #2e2f42;
 }
 
-.features-list {
-    /* Убраны лишние правила */
-}
-
 .features-item {
     margin-bottom: 24px;
 }
@@ -128,39 +124,27 @@ a {
     color: #434455;
 }
 
-/* Четвёртая секция "team" остаётся без изменений */
 .team {
     background: #f4f4fd;
 }
 
-.team-member{
-
+.team-member {
+    background-color: #FFFFFF;
 }
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 1.5em;
     text-align: center;
-    text-transform:capitalize;
+    text-transform: capitalize;
     color: #2e2f42;
-}
-
-.team-member{
-    background-color: #FFFFFF;
-}
-
-.team-member-image {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .team-member-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -175,10 +159,9 @@ a {
     color: #434455;
 }
 
-/* Остальные секции исправлены */
 .partfolio {
     margin: 10px;
-    /* Убраны лишние свойства */
+    text-transform: capitalize;
 }
 
 .partfolio-title {
@@ -188,10 +171,6 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-}
-
-.partfolio-liste {
-    /* Убраны лишние правила */
 }
 
 .partfolio-item {
@@ -205,10 +184,6 @@ a {
 
 .partfolio-item:hover {
     background-color: #FFFFFF;
-}
-
-.partfolio-image {
-    /* Убраны лишние свойства */
 }
 
 .punctuality-item-title {
@@ -252,10 +227,9 @@ a {
 }
 
 .eader-logo {
-    font-family: "Raleway", sans-serif;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
