@@ -104,7 +104,7 @@ a {
     color: #2e2f42;
 }
 
-.features-list {
+.features-item {
     margin-bottom: 24px;
 }
 
@@ -135,10 +135,6 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-}
-
-.team-member-image {
-    justify-content: center;
 }
 
 .team-member-name {
